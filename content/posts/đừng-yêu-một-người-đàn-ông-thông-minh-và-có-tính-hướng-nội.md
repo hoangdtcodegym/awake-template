@@ -4,7 +4,7 @@ subtitle: >-
   Tại sao chúng ta không nên yêu một người đàn ông thông minh và có tính hướng
   nội.
 category:
-  - PHP
+  - Tình Cảm
 author: Nguyễn Đức Long
 date: 2019-12-23T03:25:17.620Z
 featureImage: /uploads/contact-person.jpg
