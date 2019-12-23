@@ -80,3 +80,5 @@ Bạn sẽ chẳng bao giờ biết lý do tại sao, điều đó sẽ ám ản
 Khi gặp một người như vậy, bạn không nên yêu.
 
 Nguyễn Đức Long
+
+Nguồn: <https://psiloveyou.xyz/do-not-fall-in-love-with-a-smart-introverted-man-8792ac8ca4cd>
