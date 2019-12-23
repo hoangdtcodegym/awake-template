@@ -1,5 +1,5 @@
 ---
-name: About Awake
+name: PHP
 image: /uploads/mailchimp.jpg
 description: Demo
 ---
