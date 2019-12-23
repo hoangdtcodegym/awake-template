@@ -16,7 +16,7 @@
 <!--        :key="`${x}-r`"-->
 <!--        :src="`/logo-frames/logo-f${frames - x}.svg`"-->
 <!--      />-->
-      <img :src = "`/Logo.png`">
+      <img :src = "`/logo.png`">
     </div>
   </div>
 </template>
@@ -25,9 +25,9 @@ export default {
   name: 'SiteLogo',
   data() {
     return {
-      frames: 5,
+      frames: 1,
       currentFrame: 1,
-      blinking: true
+      blinking: false
     }
   },
   mounted() {
