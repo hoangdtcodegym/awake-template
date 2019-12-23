@@ -2,7 +2,7 @@
 title: So sánh giữa MySQL và MS SQL Server
 subtitle: so-sanh-mysql-va-ms-sql-server
 category:
-  - PHP
+  - MySQL
 author: Vu Minh Cuong
 date: 2019-12-23T03:31:31.313Z
 featureImage: /uploads/1_kz1xya9ba9p_8wprfry64q.jpeg
