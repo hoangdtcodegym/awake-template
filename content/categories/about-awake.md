@@ -1,5 +1,6 @@
 ---
 name: About Awake
-image: /logo.svg
+image: /uploads/mailchimp.jpg
+description: Demo
 ---
-All about the Awake Nuxt Template
+
