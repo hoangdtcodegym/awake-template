@@ -16,10 +16,6 @@ Bill Gates từng nói: "Nếu bạn nghĩ bạn là một lập trình viên th
 
 ![](/uploads/hinh-anh-dep-girl-xinh-hinh-nen-dep-gai-xinh.jpg)
 
-
-
-![]()
-
 Đối với tôi, hành động đặt hàng loạt bài này cảm thấy như một thành tựu chuyên nghiệp lớn. Tôi đã phân bổ một vị trí đặc biệt trên kệ của mình cho những cuốn sách này trước khi chúng đến,, và dọn dẹp phòng máy tính trở lên sáng láng. 
 
 Sức nặng của thẩm quyền của họ đã thật lớn và nó trở lên không thể lay chuyển.Vì vậy, tôi không bao giờ đọc chúng, và đây thực sự không phải là một cuốn sách đánh giá về bộ truyện.  Xin lỗi không xin lỗi. 
@@ -70,3 +66,7 @@ Kể từ đó, hàng thập kỷ trừu tượng đã xếp chồng lên nhau n
 Vòng phản hồi ngắn và tính linh hoạt của phần mềm ngày nay đi kèm với giá cả. Mặc dù ngày nay việc phát triển phần mềm có thể trở nên thú vị hơn rất nhiều, nhưng nó cũng dễ bị hack hơn trước khi chúng ta nghĩ và nó có thể tạo ra rất nhiều vấn đề. Phần mềm tuyệt vời vẫn đòi hỏi nhiều suy nghĩ và dễ dàng chúng ta mất đi sự nghiêm ngặt. 
 
 Các ràng buộc của IBM 650 rất khó và nhanh, và các ràng buộc ngày nay nhẹ hơn và thường tự áp đặt. Các màn hình nhỏ của điện thoại di động đã báo trước một làn sóng đổi mới trong thiết kế giao diện và phần mềm kinh tế.  Và điều gây ấn tượng với tôi là bất cứ ai chọn các ràng buộc của môi trường phát triển mục tiêu là chọn sân chơi cho những người mới trong tương lai của chúng tôi.
+
+
+
+Nguồn: medium.com/@tashian/the-art-of-computer-programming-by-donald-knuth-82e275c8764f
