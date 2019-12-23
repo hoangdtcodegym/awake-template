@@ -5,7 +5,7 @@ category:
   - PHP
 author: Phạm Ngọc Diệu
 date: 2019-12-23T03:24:50.838Z
-featureImage: /uploads/futurephp.png
+featureImage: /uploads/cat-1045782_1920.jpg
 ---
 Trên các forum như Stack Overflow, nhiều người đang dự đoán rằng PHP đang chết. Đó có phải là một quan điểm đúng hay chỉ đơn giản là họ không thích PHP.\
 Hãy nhìn lại PHP và xem xem đó có phải là tương lai của ngôn ngữ lập trình này.\
@@ -22,8 +22,6 @@ Rất nhiều các bài viết,nội dung hoàn thiện, hấp và các hệ th�
 Xây dựng Website từ đầu.\
 Tôi đã thấy rất nhiều cuộc tranh luận về việc xấy dựng website từ đầu từ nhiều người, những người dùng wordPress chẳng han, những người không biết lập trình. Tạo một website trên WordPress không yêu cầu bạn phải biết lập trình. Rất nhiều người có website trên WordPress thậm chí không hề biết nó được xây dựng bằng PHP. Vậy có phải PHP vẫn được dùng bởi những người xây dựng các trang web từ đầu?\
 PHP đã và vẫn đang rất phổ biến, một trong các nguyên nhân là nó thực sự là một ngôn ngữ lập trình rất dễ học. Điều đó làm cho nó trở thành một ngôn ngữ tuyệt vời cho người mới khi xay dựng web. PHP có thể học mà không cần có kiến thức lập trình trước. Tôi nghĩ hoàn toàn công bằng khi nói hầu hết các nhà phát triển web có lẽ đã bắt đầu với PHP hoặc ít nhất đã làm việc với PHP ở một số điểm.
-
-
 
 **Programming**
 
