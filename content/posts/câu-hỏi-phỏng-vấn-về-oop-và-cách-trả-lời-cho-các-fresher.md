@@ -5,7 +5,7 @@ subtitle: >-
   hỏi những gì? Đọc ngay bài viết để có thể trang bị những câu trả lời cần thiết
   về OOP cho các fresher cần.
 category:
-  - About Awake
+  - PHP
 author: HaiTran
 date: 2019-12-23T03:06:58.800Z
 featureImage: /uploads/about-hero.jpg
@@ -99,3 +99,5 @@ Hiểu đơn giản, tính đa hình làm cho các đối tượng không bị r
 ## 20. Khác biệt giữa cấu trúc (structure) và lớp?
 
 \- Quyền truy cập của cấu trúc được mặc định là public nhưng loại truy cập của lớp là private. Một cấu trúc được sử dụng cho một nhóm các dữ liệu nơi các lớp có thể sử dụng cho nhóm dữ liệu và các phương thức. Các cấu trúc duy nhất được sử dụng cho dữ liệu và nó không đòi hỏi sự nghiêm ngặt trong việc xác nhận truy cập nhưng các lớp lại được sử dụng để đóng gói và kế thừa dữ liệu, thứ đòi hỏi sự nghiêm ngặt trong việc này.
+
+\#Translate from https://medium.com/dot-net-tutorial/oops-interview-questions-with-answers-for-freshers-b2a568ed364b
