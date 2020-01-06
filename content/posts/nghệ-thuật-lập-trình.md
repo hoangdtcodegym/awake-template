@@ -1,9 +1,9 @@
 ---
 title: Nghệ Thuật Lập Trình
-subtitle: Bùi Văn Hoàng
+subtitle: technology
 category:
   - Technology
-author: ' Sean Hickey'
+author: Bùi Hoàng
 date: 2019-12-25T09:19:24.864Z
 featureImage: /uploads/2012178594-vinh-ha-long.jpg
 ---
