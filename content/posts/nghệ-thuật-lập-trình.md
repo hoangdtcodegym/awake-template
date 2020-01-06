@@ -25,6 +25,4 @@ Tôi biết đam mê và hứng thú, và tôi biết cảm giác kiệt quệ, 
 
 Heck, tôi thậm chí thỉnh thoảng ngồi lại và chiêm ngưỡng mã của tôi trong khi nhấm nháp một số rượu đắt tiền.
 
-
-
 Nguồn: <https://medium.com/@webseanhickey/is-programming-art-cf8ad40fea98>
