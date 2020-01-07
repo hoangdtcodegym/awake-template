@@ -14,7 +14,6 @@ Chúng ta đều biết rằng rất khó để viết những unit test tốt. 
 
    Đừng lồng nhiều test vào một function như thế này:
 
-
    ```
    public void testBasicStuff() {
       Bar bar = makeBar(); 
@@ -30,12 +29,10 @@ Chúng ta đều biết rằng rất khó để viết những unit test tốt. 
       }
    ```
 
-
    Kết hợp 3 bài test với nhau là không thuận tiện vì:
 
 * Nó sẽ làm bài test trở lên mơ hồ, liệu chất liệu, thành phẩn của bài test thứ nhất có ảnh hưởng tới bài test thứ hai và thứ ba không.
 * Trạng thái bắt đầu của test thứ hai va thứ ba không rõ ràng, như kiểu “ Bất cứ trạng thái nào sau khi test thứ nhất kết thúc”. Điều này làm nó khó hiểu hơn. Để khắc phục, rõ ràng phải thiết lập rõ trạng thái bắt đầu cho test thứ 2 và thứ 3.
-
 
   ```
    public void testOne() {
@@ -70,7 +67,6 @@ Chúng ta đều biết rằng rất khó để viết những unit test tốt. 
 
     Thật xấu hổ khi nhìn thấy những test có tên như trên. Khi mà bạn có thể  thấy chúng như sau:
 
-
    ```
    public void testMyFunc_updatesBar_inExpectedGeneralCase() {
         ...
@@ -87,13 +83,11 @@ Chúng ta đều biết rằng rất khó để viết những unit test tốt. 
 public void testSYSTEM_BEHAVIOR_CONDITION() {
 ```
 
-
 Ví dụ
 
 ```
 public void testAuthenticate_rejectsUser_whenBadCredentialsProvided() {
 ```
-
 
 3.AAA: Arrange , Act, Assert
 
@@ -102,7 +96,6 @@ Arrange: Thiết lập test, giả lập RPGs, điền giữ diệu giả,…
 Act: Chạy các chức năng được kiểm thử.
 
 Assert: Kiểm tra các trạng thái dự kiến.
-
 
 ```
 public void testMyFunc_updatesBar() {
@@ -113,10 +106,7 @@ assertThat(bar).isEqualTo(expectedBar);
 }
 ```
 
-
-Đoạn code trên, mặc dù chỉ có 4 dòng, vẫn có thể gây nhầm lẫn, mơ hồ một chút.  Bời vì AAA không tách rời. Tại sao `expectedBar  `được khai báo ở đầu? Có phải nó được dùng trong ` myFunc()` ? Khi nào thiết lập hoàn thành và khi nào thì bài test thực sự chạy.?
-Bạn có thể ngăn chặn tất cả những mơ hồ đó bằng cách tách thành 3 bước riêng biệt trong code của bạn:
-
+Đoạn code trên, mặc dù chỉ có 4 dòng, vẫn có thể gây nhầm lẫn, mơ hồ một chút.  Bời vì AAA không tách rời. Tại sao `expectedBar`được khai báo ở đầu? Có phải nó được dùng trong `myFunc()` ? Khi nào thiết lập hoàn thành và khi nào thì bài test thực sự chạy.? Bạn có thể ngăn chặn tất cả những mơ hồ đó bằng cách tách thành 3 bước riêng biệt trong code của bạn:
 
 ```
 public void testMyFunc_updatesBar() {
@@ -126,8 +116,6 @@ public void testMyFunc_updatesBar() {
 ```
 
 Đây là một ví dụ khác, lần này trên Python,:
-
-
 
 ```
 class MyTestCase(unittest.TestCase):
@@ -141,10 +129,9 @@ class MyTestCase(unittest.TestCase):
   
     # Ensure Bar was updated to contain the recent user.
     self.assertIn(user.id, (u.id for u in bar_service.recentUsers()));
-
 ```
 
-Chúng ta không thể thấy` foo ()` làm gì hay `supposeGarbleServiceReturns()` làm cái gì và cả `makeSimpleUserWithExistingBaz () `nữa, nhưng bạn có thể ngay lập tức nhận ra cái gì đang diễn ra ở đây vì bài test có một cái tên rõ nghĩa.  Đó là 3 bước riêng biệt và nó là những chú thích phù hợp.
+Chúng ta không thể thấy`foo ()` làm gì hay `supposeGarbleServiceReturns()` làm cái gì và cả `makeSimpleUserWithExistingBaz ()`nữa, nhưng bạn có thể ngay lập tức nhận ra cái gì đang diễn ra ở đây vì bài test có một cái tên rõ nghĩa.  Đó là 3 bước riêng biệt và nó là những chú thích phù hợp.
 
 Không cách  nào trong 3 cách trên  yêu cầu bất kỳ loại refactor hay debugging nào để thực hiện. Ngay cả trong các code hiện tại.Tuy nhiên tác động của chúng đến việc đọc và bảo trì của các bộ test lớn có thể rất lớn. Vậy nên vì lợi ích của đồng nghiệp hay ai đó một ngày nào đó sẽ kế thừa code của bạn, làm ơn hãy định dạng lại unit test của bạn.
 
