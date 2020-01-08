@@ -5,7 +5,7 @@ category:
   - PHP
 author: ca_map_trang
 date: 2020-01-08T08:47:40.644Z
-featureImage: uploads/2795f771d024f56903980f4e4d82347a.jpg
+featureImage: uploads/contact-hero.jpg
 ---
 **PHP** (ngôn ngữ tiền xử lí siêu văn bản), là 1 ngôn ngữ mã nguồn mở kịch bản phía server. Có tới gần 80% websites sử dụng PHP  kể từ tháng 10 năm 2018 và rất nhiều các frameworks khác nhau.
 
