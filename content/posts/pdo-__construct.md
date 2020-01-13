@@ -73,8 +73,6 @@ Trả lại giá trị đối tượng PDO khi thành công.
 
 Tạo 1 ví dụ PDO thông qua gọi trình điều khiển
 
-
-
 ```
 <?php/\\* Connect to a MySQL database using driver invocation \\*/$dsn='mysql:dbname=testdb;host=127.0.0.1';$user='dbuser';$password='dbpass';\
 \
@@ -84,10 +82,6 @@ $dbh= newPDO($dsn,$user,$password);\
 echo'Connection failed: '.$e->getMessage();\
 }?>
 ```
-
-
-
-
 
 Ví dụ # 2 Tạo một cá thể PDO thông qua việc gọi URI
 
