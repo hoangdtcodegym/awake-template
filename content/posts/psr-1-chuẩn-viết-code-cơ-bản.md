@@ -9,8 +9,6 @@ featureImage: uploads/anhdep01.jpg
 ---
 # **PSR-1: Chuẩn viết code cơ bản**
 
-
-
 # Tóm tắt nội dung chính:
 
 * Các file PHÁI dùng các thẻ`<?php`và`<?=`.
@@ -33,7 +31,7 @@ PHP code PHẢI dùng thẻ dài`<?php ?>`hoặc dạng ngắn`<?= ?>`; KHÔNG �
 
 Các file PHẢI dùng duy nhất UTF-8 không BOM cho code PHP .
 
-## thành phần phụ 
+## thành phần phụ
 
 Các file nên định nghĩa kí hiệu (lớp, hàm, hằng số, vv.) *hoặc* đưa ra tác dụng (e.g. sinh ra output, thay đổi .ini settings, vv.) nhưng KHÔNG NÊN làm cả 2.
 
@@ -110,7 +108,6 @@ Với các phiên bản 5.2.x trở về trước, nên đặt tên class với 
 class Vendor_Model_Foo
 {
 }
-
 ```
 
 # Các hằng số, thuộc tính và phương thức của class
@@ -141,9 +138,5 @@ Tuy nhiên, bất kỳ quy ước đặt tên nào được sử dụng NÊN đ�
 ## Phương thức
 
 Các phương thức PHẢI đặt tên dạng`camelCase`.
-
-
-
-
 
 Source: <https://www.php-fig.org/psr/psr-1/>
